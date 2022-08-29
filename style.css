@@ -1,0 +1,179 @@
+.container {
+    width: 1140px;
+    margin: 0 auto ;
+}
+.border {
+    width: 248px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    background: #FC0102;
+    border-radius: 50%;
+}
+.circle2 {
+    width: 21px;
+    height: 1px;
+    transform: rotate(90deg) ;
+    background: black ;
+}
+.web {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+
+    color: rgba(252, 1, 2, 0.8);
+
+}
+.web2 {
+    width: 400px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+
+    color: rgba(0, 0, 0, 0.9);
+}
+.webTT{
+    font-family: 'Dela Gothic One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+
+    color: rgba(220, 0, 0, 0.9);
+}
+.circle3 {
+    width:21px ;
+    height: 1px;
+    background: black ;
+    margin: 5px;
+}
+.trend {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    width: 433px;
+    height: 80px;
+    background: rgba(252, 1, 2, 0.9);
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 104.69%;
+    border: none ;
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer ;
+    z-index: 4;
+}
+.btn:hover {
+    background: saddlebrown ;
+    border-radius: 35px;
+
+    border-bottom-left-radius: 0 ;
+    border-top-right-radius: 0;
+    margin-top: 9px;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imgCircle {
+    position: absolute;
+    margin-top: -10px;
+}
+.imgCircle5 {
+    margin-top: -10px;
+    margin: 0 0 -5px 0;
+}
+.imgCircle2 {
+    margin-left: -240px;
+    margin-top: -63px;
+    position: absolute;
+    z-index: 1;
+
+}
+.footer {
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoFoot {
+    display: flex;
+    align-items: center;
+
+}
+.logoMenu {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 124.3%;
+    color: aliceblue;
+
+
+}
+.footP{
+    width: 300px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176.3%;
+    /* or 28px */
+
+
+    color: rgba(255, 255, 255, 0.8);
+}
+.footWeb {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 124.3%;
+    /* or 37px */
+
+
+    color: #FFFFFF;
+}
+.footH4 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* or 28px */
+    color: rgba(255, 255, 255, 0.8);
+}
+.imgCircle6 {
+    position: absolute;
+    margin-top: 300px;
+}
+.logoHed {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+}
+
